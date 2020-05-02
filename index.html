@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Studio Zerance</title>
+        <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/simple-grid.css">
+        <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+        <link rel="stylesheet" href="./css/custom.css" />
+    </head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="logo">
+                        <img class="web-logo" src="./images/logo.png" alt="Studio Zerance Logo" />
+                        <img class="mobile-logo" src="./images/logo-small.png" alt="Studio Zerance Logo" />
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#portfolio" >Nos Clients</a></li>
+                            <li><a href="#slider" >Notre Offre</a></li>
+                            <li><a href="#scroller" >Le Studio</a></li>
+                            <li><a href="#" >Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="banner" id="banner">
+        <div class="banner-text">
+            <p>Since 2016</p>
+            <h1>We create from scratch  <br/>amazing <span>Shopify</span></h1>
+        </div>
+    </section>
+    <section class="clients" id="portfolio">
+        <div class="clients-content">
+            <h3 class="clients-title">NOS CLIENTS SONT GÉNIAUX !</h3>
+            <ul class="clients-list">
+                <li><a href="https://yokoshop.com" target="_blank"><img src="images/yoko.webp"/></a></li>
+                <li><a href=""><img src="images/webedia.webp"/></a></li>
+                <li><a href=""><img src="images/avnier.webp"/></a></li>
+                <li><a href=""><img src="images/seasonly.webp"/></a></li>
+                <li><a href=""><img src="images/joone.webp"/></a></li>
+                <li><a href=""><img src="images/universal.png"/></a></li>
+                <li><a href=""><img src="images/boxtal.webp"/></a></li>
+                <li><a href=""><img src="images/fempo.webp"/></a></li>
+                <li><a href=""><img src="images/bonsoirs.webp"/></a></li>
+                <li><a href=""><img src="images/mars.webp"/></a></li>
+                <li><a href=""><img src="images/bigfernand.webp"/></a></li>
+                <li><a href=""><img src="images/fourche.webp"/></a></li>
+                <li><a href=""><img src="images/rivieras.webp"/></a></li>
+                <li><a href=""><img src="images/cdiscount.webp"/></a></li>
+                <li><a href=""><img src="images/tealer.webp"/></a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="carousel">
+        <div class="slider" id="slider">
+            <div class="slick-carousel">
+                <div>
+                    <img class="slide-img" src="images/Artboard_1.jpg" />
+                    <div class="slide-content">
+                        <p>From Scratch</p>
+                        <img src="images/joone-black.webp" alt="">
+                        <p>Développement site from scratch et d’un quiz personnalisé avec abonnement. Développement site from scratch et d’un quiz personnalisé avec abonnement.</p>
+                        <a href="#" class="read-more">Voir plus</a>
+                    </div>
+                </div>
+                <div>
+                    <img class="slide-img" src="images/Artboard_2.jpg" />
+                    <div class="slide-content">
+                        <p>From Scratch</p>
+                        <img src="images/seasonly-black.webp" alt="">
+                        <p>Développement site from scratch et d’un quiz personnalisé avec abonnement. Développement site from scratch et d’un quiz personnalisé avec abonnement.</p>
+                        <a href="#" class="read-more">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-scroller" id="scroller">
+            <p> / In the Breton language, Studio Zerance says Studio Zerance / It's more pleasant in real life, so come and discuss your project around a tea in our super offices on the Trail / For your safety, please keep a safety distance of 1.5 meters with our developers, thank you / </p>
+        </div>
+    </section>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/slick.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slick-carousel').slick({
+                dots: false,
+                speed: 300,
+                slidesToShow: 1,
+                variableWidth: true,
+                arrows: true,
+                draggable: true
+            });
+        });
+    </script>
+</body>
+</html>
